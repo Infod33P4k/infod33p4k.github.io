@@ -88,9 +88,9 @@ In this setup, the attacker’s Kali Linux machine (`10.10.14.7`) is able to con
 
 By deploying Ligolo-ng, the attacker can create a secure tunnel through the target. This tunnel allows the attacker to pivot into the internal network, gaining access to resources behind the gateway machine—just as a real attacker might do during a lateral movement phase in a penetration test.
 
-## **Establishing the Ligolo-ng** Tunnel
+## Establishing the Ligolo-ng Tunnel
 
-### **1. Start the Proxy on the Attacker** Machine
+### 1. Start the Proxy on the Attacker Machine
 
 Begin by launching the `Ligolo-ng proxy` on your Kali Linux attacker machine. The `-selfcert` option tells Ligolo-ng to automatically generate a self-signed certificate for secure TLS communication.
 
@@ -102,7 +102,7 @@ This command starts the proxy and listens for incoming agent connections, using 
 
 ![image.png](image%201.png)
 
-### **2.** Transfer **and Set Up the Agent on the Target Machine**
+### 2. Transfer **and Set Up the Agent on the Target Machine
 
 Next, transfer the appropriate `Ligolo-ng agent` binary (matching the target's OS and architecture) to the Linux target machine. Tools such as scp, wget, or curl can be used for this transfer, depending on what’s available in your environment.
 
@@ -181,7 +181,7 @@ With listeners configured, you can effortlessly capture shells, transfer files, 
 
 After compromising the Windows target (`192.168.2.8`) from the Linux pivot, the next objective is to establish further access into deeper network segments. This is achieved by transferring and executing the Ligolo-ng agent on the newly reached Windows host.
 
-## **Prepare to Transfer the Agent**
+## Prepare to Transfer the Agent
 
 Create a Ligolo-ng listener on the Linux target to forward requests for the agent binary back to your attacker machine:
 
