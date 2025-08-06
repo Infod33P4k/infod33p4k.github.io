@@ -1,18 +1,20 @@
-# About
+# 🧑‍💻 About
 
-This is the personal site of [Deepak S.](https://github.com/Infod33P4k) — a cybersecurity enthusiast and penetration tester dedicated to securing the digital world through continuous learning and real-world application.
-
-::github{repo="Infod33P4k"}
+This is the personal site of [Deepak S.](https://www.linkedin.com/in/d3p4k/) — a cybersecurity enthusiast and penetration tester committed to securing the digital world through continuous learning and real-world application.
 
 ---
 
-I’m a cybersecurity professional with a strong passion for ethical hacking, red teaming, and vulnerability research. My experience spans across vulnerability assessments, digital infrastructure hardening, and the development of automation tools for reconnaissance and offensive testing.
+I’m a **Certified Penetration Testing Specialist (CPTS)** from **Hack The Box** and hold the **Certified Penetration Tester (CPT)** credential from **Red Team Hacker Academy**. My core expertise lies in **web application penetration testing**, **Active Directory exploitation**, and **red teaming** engagements simulating real-world adversaries.
 
-I hold a **Certified Penetration Tester (CPT)** certification from the **Red Team Hacker Academy** and am currently pursuing the **Certified Penetration Testing Specialist (CPTS)** certification from **Hack The Box**, demonstrating my commitment to mastering advanced techniques and methodologies used by modern adversaries.
+Over the years, I’ve developed automation tools to streamline reconnaissance and offensive operations, performed vulnerability assessments, and contributed to infrastructure hardening across various environments.
 
-My educational foundation includes the **Google Cybersecurity Professional Certificate**, and I consistently engage in hands-on learning platforms. Notably, I’ve achieved a **Top 2% global ranking on TryHackMe**, reflecting my drive to stay sharp in the fast-evolving threat landscape.
+I’ve consistently expanded my skills by solving CTF-style labs and real-world simulation boxes on platforms like **Hack The Box**, **TryHackMe**, and others. Currently, I am preparing for the **Certified Red Team Operator (CRTO)** exam to deepen my expertise in advanced red teaming techniques.
 
-I believe in the power of open knowledge, collaborative security research, and ethical innovation to build a safer digital future. Whether I’m reverse engineering obfuscated payloads, exploiting business logic flaws, or automating post-exploitation chains, I’m fueled by curiosity and a desire to make a meaningful impact.
+Whether reverse engineering obfuscated payloads, exploiting complex business logic flaws, or automating multi-stage post-exploitation, I’m driven by curiosity and a mission to make a meaningful impact in the cybersecurity landscape.
+
+---
+
+### 📄 [📥 Download My CV](/DeepakS.pdf)
 
 ---
 

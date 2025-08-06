@@ -255,8 +255,10 @@ In some advanced internal scenarios, you may need to reach services that are bou
 ![image.png](image%209.png)
 
 ## Configure the Tunnel to Access the Local Web Service
-
-In the Ligolo-ng session, create an interface and route that targets the `local IIS serve`r bound only to loopback (`127.0.0.1:8989`):
+:::note
+Before configuring the tunnel, ensure you have an active Ligolo-ng session on the correct target host.
+:::
+To access a web service that is bound to `localhost` on the remote system (e.g., an `IIS server` running on `127.0.0.1:8989`), set up the tunnel with the following commands:
 
 ```bash
 interface_create --name InternalWeb
@@ -265,7 +267,11 @@ tunnel_start --tun InternalWeb
 ```
 ![image-1](image-1.png)
 
-Using a dummy route like `240.0.0.1/32` is a common trick to direct traffic at the loopback service via the tunnel.
+- `interface_create`: Initializes a new virtual tunnel interface named InternalWeb.
+
+- `route_add`: Adds a fake route (`240.0.0.1/32`) that will be used to access the remote service.
+
+- `tunnel_start`: Starts the tunnel for that interface, allowing traffic to be redirected.
 
 ## Access the Internal Service
 
