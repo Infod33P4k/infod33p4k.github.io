@@ -1,12 +1,12 @@
 ---
 title: Ligolo-ng
 published: 2025-08-05
-description: "How to use Ligolo-ng."
+description: "A practical guide on using Ligolo-ng for secure tunneling and network pivoting during internal penetration testing."
 tags: ["Ligolo-ng"]
 category: Blog
 draft: false
+image : ./ligolo.svg
 ---
-
 # Introduction
 ::github{repo="nicocha30/ligolo-ng"}
 Ligolo-ng is a modern, lightweight, and high-performance tunneling tool designed for penetration testers and red teamers. Its primary purpose is to enable secure, reliable, and efficient reverse tunneling and network pivoting during internal network assessments. Unlike traditional tools that rely on SOCKS proxies, Ligolo-ng creates a TUN (network tunnel) interface, making network routing simple, seamless, and fast.
@@ -15,13 +15,13 @@ Originally developed by Nicolas Chatelain, Ligolo-ng lets you establish tunnels 
 
 In this guide, you'll learn how to set up Ligolo-ng from scratch, create a tunnel between attacker and target, and even transfer files efficiently and covertly through the established connection.
 
-# **Setting Up** Ligolo**-ng**
+# Setting Up Ligolo-ng
 
 Ligolo-ng provides precompiled agent and proxy binaries for various platforms (Linux, Windows, MacOS, BSD) in every release. You can always obtain the latest version from the official [Ligolo-ng releases page](https://github.com/nicocha30/ligolo-ng/releases).
 
 ![image.jpg](image.jpg)
 
-## **Organizing for** Multiple **OS**
+## Organizing for Multiple OS
 
 It's recommended to create a clean directory structure to store the agents for both Linux and Windows:
 
@@ -30,7 +30,7 @@ mkdir -p ligolo-ng/linux
 mkdir -p ligolo-ng/windows
 ```
 
-## **Downloading the Binaries**
+## Downloading the Binaries
 
 :::important
 From the [releases page](https://github.com/nicocha30/ligolo-ng/releases), right-click on the links for the latest version’s agent and proxy binaries and use `wget` or `curl` to download them into your directories. For example, for version 0.8.2:
@@ -254,7 +254,7 @@ In some advanced internal scenarios, you may need to reach services that are bou
 
 ![image.png](image%209.png)
 
-## **Configure the Tunnel to Access the Local Web Service**
+## Configure the Tunnel to Access the Local Web Service
 
 In the Ligolo-ng session, create an interface and route that targets the `local IIS serve`r bound only to loopback (`127.0.0.1:8989`):
 
@@ -263,6 +263,7 @@ interface_create --name InternalWeb
 route_add --name InternalWeb --route 240.0.0.1/32
 tunnel_start --tun InternalWeb
 ```
+![image-1](image-1.png)
 
 Using a dummy route like `240.0.0.1/32` is a common trick to direct traffic at the loopback service via the tunnel.
 
