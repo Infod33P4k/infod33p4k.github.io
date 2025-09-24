@@ -9,6 +9,13 @@ Below is a comprehensive list of certifications and hands-on labs I’ve complet
 
 ---
 
+## PortSwigger
+
+**Burp Suite Certified Practitioner (BSCP)**
+![Burp Suite Certified Practitione (BSCP)](./Cert_Image/BSCP.png)
+
+---
+
 ## Hack The Box
 
 **HTB Certified Penetration Testing Specialist (HTB CPTS)**  
