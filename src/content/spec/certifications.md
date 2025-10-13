@@ -21,8 +21,17 @@ Below is a comprehensive list of certifications and hands-on labs I’ve complet
 **HTB Certified Penetration Testing Specialist (HTB CPTS)**  
 ![HTB Certified Penetration Testing Specialist (HTB CPTS)](./Cert_Image/HTB_CPTS.jpg)
 
+**Alchemy Pro Lab**
+![Alchemy Pro Lab](./Cert_Image/Alchemy.jpg)
+
+**Wanderer Pro Lab**
+![Wanderer Pro Lab](./Cert_Image/Wanderer.jpg)
+
 **Dante Pro Lab**  
 ![Dante Pro Lab](./Cert_Image/Dante.jpg)
+
+**Mythical - Mini Pro Lab**
+![Mythical - Mini Pro Lab](./Cert_Image/Mythical.jpg)
 
 **Ascension – Mini Pro Lab**  
 ![Ascension](./Cert_Image/Ascension.jpg)
