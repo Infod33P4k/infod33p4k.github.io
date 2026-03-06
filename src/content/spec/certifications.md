@@ -21,6 +21,9 @@ Below is a comprehensive list of certifications and hands-on labs I’ve complet
 **HTB Certified Penetration Testing Specialist (HTB CPTS)**  
 ![HTB Certified Penetration Testing Specialist (HTB CPTS)](./Cert_Image/HTB_CPTS.jpg)
 
+**HTB Certified Web Exploitation Specialist (HTB CWES)**
+![HTB Certified Web Exploitation Specialist (HTB CWES)](./Cert_Image/HTB-CWES.jpg)
+
 **Alchemy Pro Lab**
 ![Alchemy Pro Lab](./Cert_Image/Alchemy.jpg)
 
@@ -29,6 +32,12 @@ Below is a comprehensive list of certifications and hands-on labs I’ve complet
 
 **Dante Pro Lab**  
 ![Dante Pro Lab](./Cert_Image/Dante.jpg)
+
+**Kaiju - Mini Pro Lab**
+![Kaiju - Mini Pro Lab](./Cert_Image/Kaiju.jpg)
+
+**Tea - Mini Pro Lab**
+![Tea - Mini Pro Lab](./Cert_Image/Tea.jpg)
 
 **Mythical - Mini Pro Lab**
 ![Mythical - Mini Pro Lab](./Cert_Image/Mythical.jpg)
