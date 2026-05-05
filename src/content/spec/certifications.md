@@ -18,11 +18,17 @@ Below is a comprehensive list of certifications and hands-on labs I’ve complet
 
 ## Hack The Box
 
+**HTB Certified Active Directory Pentesting Expert**
+![HTB Certified Active Directory Pentesting Expert](./Cert_Image/HTB_CAPE.jpg)
+
 **HTB Certified Penetration Testing Specialist (HTB CPTS)**  
 ![HTB Certified Penetration Testing Specialist (HTB CPTS)](./Cert_Image/HTB_CPTS.jpg)
 
 **HTB Certified Web Exploitation Specialist (HTB CWES)**
 ![HTB Certified Web Exploitation Specialist (HTB CWES)](./Cert_Image/HTB-CWES.jpg)
+
+**Rastalabs Pro Lab**
+![Rastalabs Pro Lab](./Cert_Image/RastaLabs.jpg)
 
 **Alchemy Pro Lab**
 ![Alchemy Pro Lab](./Cert_Image/Alchemy.jpg)
@@ -32,6 +38,9 @@ Below is a comprehensive list of certifications and hands-on labs I’ve complet
 
 **Dante Pro Lab**  
 ![Dante Pro Lab](./Cert_Image/Dante.jpg)
+
+**Orion - Mini Pro Lab**
+![Orion](./Cert_Image/Orion.jpg)
 
 **Kaiju - Mini Pro Lab**
 ![Kaiju - Mini Pro Lab](./Cert_Image/Kaiju.jpg)
