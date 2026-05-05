@@ -18,7 +18,7 @@ Below is a comprehensive list of certifications and hands-on labs I’ve complet
 
 ## Hack The Box
 
-**HTB Certified Active Directory Pentesting Expert**
+**HTB Certified Active Directory Pentesting Expert (HTB CAPE)**
 ![HTB Certified Active Directory Pentesting Expert](./Cert_Image/HTB_CAPE.jpg)
 
 **HTB Certified Penetration Testing Specialist (HTB CPTS)**  
